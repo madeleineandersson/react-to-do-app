@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.to-do-list {
+  width: 72%;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
+h2 {
+  display: inline;
+  vertical-align: middle;
+}
+
+ul,
+h1,
+h2 {
+  padding: 20px;
+}
+
+p {
+  padding: 30px 0 20px 20px;
+}
+
+.btn-outline-success,
+.btn-outline-danger,
+.btn-outline-primary,
+.btn-outline-dark,
+.btn-primary {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+  .to-do-list {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .center-block {
+    padding: 0;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 10px auto;
+    display: block !important;
+  }
+
+  .col-sm-8,
+  .col-sm-4,
+  .row.m-2 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
